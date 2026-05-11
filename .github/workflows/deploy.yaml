@@ -19,7 +19,7 @@ jobs:
           script: |
             whoami
             pwd
-            cd app/prueba-api
+            cd /home/ubuntu/app/prueba-api
             git pull origin main
             docker compose up --build -d
             docker image prune -f
