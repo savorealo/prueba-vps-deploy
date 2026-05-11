@@ -17,7 +17,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            whoamai
+            whoami
             pwd
             cd app/prueba-api
             git pull origin main
